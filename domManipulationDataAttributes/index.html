@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Modifying data attibutes of elements</h1>
+    <h2>Species</h2>
+    <p>Click on a species to see what type it is:</p>
+
+    <ul>
+        <li onclick="showDetails(this)" id="owl" data-animal-type="bird">Owl</li>
+        <li onclick="showDetails(this)" id="salmon" data-animal-type="fish">Salmon</li>
+        <li onclick="showDetails(this)" id="tarantula" data-animal-type="Spider">Tarantula</li>
+
+    </ul>
+    <div>
+        <span title="hello" id="hi" data-test="This is a test" data-value1="this is hello">Hello</span>
+        <span id="bye" style="color:aqua">Bye</span>
+    </div>
+    
+
+</body>
+<script src="script.js"></script>
+</html>
